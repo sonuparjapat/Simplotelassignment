@@ -1,0 +1,97 @@
+
+
+.cards-section {
+    background: linear-gradient(to right, #ff6cbf, #ff8aa4, #ffad85, #ffbe75, #ffd760);
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 200px;
+  }
+  
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 100px; 
+    width:80%;
+    margin:auto;
+    justify-content: center; 
+  }
+  
+  .card {
+    background: #fff;
+    color:black;
+    padding: 20px;
+    text-align: center;
+    z-index: 2;
+    border-top-right-radius: 15%;
+    border-bottom-left-radius: 15%;
+    position: relative;
+    max-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    overflow: hidden; 
+   padding-bottom: 40px;
+  }
+  
+  .card img {
+    width: 100%; 
+    height:60%; 
+    border-top-right-radius: 15%;
+
+  }
+  
+  .order-all-button {
+    background: #ffc9b9;
+    color: #fff;
+    border: none;
+    padding: 3px 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    /* width: ; */
+    margin-top: 100px; 
+    color:black;
+  }
+  @media screen and (max-width: 768px) {
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        gap: 100px; 
+        width:80%;
+        margin:auto;
+        justify-content: center; 
+      }
+  }
+  @media screen and (max-width: 990px) {
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 100px; 
+        width:80%;
+        margin:auto;
+        justify-content: center; 
+      }
+  }
+  @media screen and (max-width:450px) {
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); 
+        gap: 100px; 
+        width:80%;
+        margin:auto;
+        justify-content: center; 
+      }
+  }
+  @media screen and (max-width:700px) {
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); 
+        gap: 100px; 
+        width:80%;
+        margin:auto;
+        justify-content: center; 
+      }
+  }
+  

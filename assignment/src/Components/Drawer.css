@@ -1,9 +1,10 @@
-/* src/components/Drawer.css */
+
 
 .drawer {
+    display:none;
     position: fixed;
     top: 0;
-    left: -250px; /* Initially off-screen to the left */
+    left: -250px;
     height: 100%;
     width: 250px;
     background-color: white;
@@ -12,7 +13,7 @@
   }
   
   .drawer.open {
-    left: 0; /* Slide in from the left */
+    left: 0; 
   }
   
   ul {
@@ -43,4 +44,17 @@
   .close-button:hover {
     background-color: #555;
   }
-  
+  @media screen and (max-width:576px) {
+    .drawer {
+    display: inline;
+        position: fixed;
+        top: 0;
+        left: -250px; 
+        height: 100%;
+        width: 250px;
+        background-color: white;
+        z-index: 1000;
+        transition: left 0.4s;
+      }
+    
+  }

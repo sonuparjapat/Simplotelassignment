@@ -1,5 +1,6 @@
 import React from 'react';
 import './Drawer.css';
+import { FaClosedCaptioning } from 'react-icons/fa';
 
 function Drawer({ isOpen, onClose, items }) {
   return (
@@ -11,7 +12,7 @@ function Drawer({ isOpen, onClose, items }) {
           </li>
         ))}
       </ul>
-      <button className="close-button" onClick={onClose}>
+<button className="close-button" onClick={onClose}>
         Close
       </button>
     </div>

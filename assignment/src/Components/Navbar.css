@@ -1,6 +1,6 @@
 .navbar {
-    background-color: white; /* Set the background color to white */
-    color: #333; /* Change the text color to a contrasting color */
+    background-color: white; 
+    color: #333; 
     position: sticky;
     top: 0;
     z-index: 100;
@@ -17,6 +17,7 @@
   .nav-menu ul {
     list-style: none;
     display: flex;
+  
     justify-content: center;
     align-items: center;
     margin: 0;
@@ -25,7 +26,7 @@
   
   .nav-menu li {
     font-size: 18px;
-
+    font-style: bold;
     letter-spacing: 1px;
     margin: 0 20px;
   }
@@ -137,12 +138,7 @@
         letter-spacing: 0.5px;
         margin: 0 10px;
       }
-      /* .icons a {
-        text-decoration: none;
-        color: #333;
-        font-size: 20px;
-        padding: 10px;
-      } */
+    
   }
   @media  screen and (max-width:729px) {
     .general{
